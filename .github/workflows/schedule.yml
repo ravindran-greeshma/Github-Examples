@@ -1,0 +1,12 @@
+name: Scheduled every 2 min
+
+on:
+  schedule:
+  - cron: '*/2 * * * *'
+
+jobs:
+  show1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print time and date
+      run: echo "The current date and time $(date)"

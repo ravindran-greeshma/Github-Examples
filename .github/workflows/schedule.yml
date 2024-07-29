@@ -1,4 +1,4 @@
-name: Scheduled every 2 min
+name: Scheduled to run every 2 min
 
 on:
   schedule:

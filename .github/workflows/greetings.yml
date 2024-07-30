@@ -1,6 +1,14 @@
 name: Greetings
 
-on: [pull_request_target, issues]
+# on: [pull_request_target, issues]
+
+on:
+  issues:
+    types: opened
+
+  pull_request_target:
+    branches:
+      - dev
 
 jobs:
   greeting:

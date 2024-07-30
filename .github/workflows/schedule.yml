@@ -1,5 +1,7 @@
 name: Scheduled to run every 2 min
 
+run-name: Scheduled Run
+
 on:
   schedule:
   - cron: '*/2 * * * *'

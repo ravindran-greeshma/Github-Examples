@@ -1,8 +1,8 @@
 name: Work Flow Commands
 
-on:
+on: 
   push:
-    branches 
+    branches:
       - main
 
 jobs:

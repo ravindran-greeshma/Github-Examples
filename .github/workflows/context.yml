@@ -1,7 +1,5 @@
-name: COntext Examples
-
+name: Context Examples
 on: ['push']
-
 jobs:
   my-context:
   runs-on: ubuntu-latest
